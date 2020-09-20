@@ -1,0 +1,59 @@
+body{
+    background-color: #0081ac;;
+    text-align: center;
+    font-size: large;
+}
+
+div{
+    background-color: white;
+    position: relative;
+    margin: 10% 35% 10% 35%;
+    padding: 3%;
+    box-shadow: 2px 2px gray;
+}
+
+img{
+    width: 20%;
+    position: absolute;
+    left: 3%;
+    top: 3%;
+}
+
+input{
+    margin: 1%;
+    padding: 3%;
+}
+
+#login_button{
+    margin-top: 2%;
+    padding: 3% 5%;
+    font-size: large;
+    background-color: #4997d0;
+    color: white;
+    border-radius: 10%;
+    border: none;
+    cursor: pointer;
+}
+
+#login_button:hover{
+    opacity: 70%;
+}
+
+.little_text{
+    font-weight: normal;
+    font-size: medium;
+}
+
+a{
+    color: #0000EE;
+    font-size: small;
+}
+
+p + a{
+    font-weight: bold;
+    font-size: medium;
+}
+
+p ~ p{
+    font-weight: bold;
+}
