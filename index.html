@@ -2,34 +2,56 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="./login.css" />
+        <link rel="stylesheet" href="./postit.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>postIt!</title>
     </head>
 
     <body>
-        <div class="flex-container">
+        <div id="search-bar">
+            <form>
+              <input type="text" name="search">
+              <input type="submit" value="Search">
+            </form>
+        </div>
+        
+        <div id="flex-container" class="post-container">
+            
             <div class="post">
-                
-                <img src="./res/pfp.png" class="icon" alt="Like button"/>
-                <p id="date">Sep 25, 2020 11:32</p>
-                <img src="./res/rain.jpg" class="index-img" alt="Rain image" />
-                <p id="caption">I think it's going to rain</p>
-                <img src="./res/like.png" class="icon" alt="Like button"/>
-            </div> 
-            <div class="post">
-                <img src="./res/pfp.png" class="icon" alt="Like button"/>
-                <p id="date">Sep 25, 2020 11:32</p>
-                <p id="caption">Which weighs more, a pound of feathers or a pound of bricks?</p>
-                <img src="./res/like.png" class="icon" alt="Like button"/>
+                <div class="post-top">
+                    <img src="./res/pfp.png" class="icon" alt="Profile picture"/>
+                    <p class="date">Sep 25, 2020 11:32</p>
+                </div>
+                <img src="./res/rain.jpg" class="post-img" alt="Rain image" />
+                <div class="post-content">
+                    <p class="caption">I think it's going to rain</p>
+                    <img src="./res/like.png" class="icon" alt="Like button"/>
+                </div>
             </div>
+            
             <div class="post">
-                <img src="./res/pfp.png" class="icon" alt="Like button"/>
-                <p id="date">Sep 25, 2020 11:32</p>
-                <img src="./res/dog.jpg" class="index-img" alt="Dog image" />
-                <p id="caption">Felt cute, might delete later</p>
-                <img src="./res/like.png" class="icon" alt="Like button"/>
+                <div class="post-top">
+                    <img src="./res/pfp.png" class="icon" alt="Profile picture"/>
+                    <p class="date">Sep 25, 2020 11:32</p>
+                </div>
+                <div class="post-content">
+                    <p class="caption">Which weighs more, a pound of feathers or a pound of bricks?</p>
+                    <img src="./res/like.png" class="icon" alt="Like button"/>
+                </div>
             </div>
+            
+            <div class="post">
+                <div class="post-top">
+                    <img src="./res/pfp.png" class="icon" alt="Profile picture"/>
+                    <p class="date">Sep 25, 2020 11:32</p>
+                </div>
+                <img src="./res/dog.jpg" class="post-img" alt="Dog image" />
+                <div class="post-content">
+                    <p class="caption">Felt cute, might delete later</p>
+                    <img src="./res/like.png" class="icon" alt="Like button"/>
+                </div>
+            </div>
+            
         </div>
     </body>
 </html>
